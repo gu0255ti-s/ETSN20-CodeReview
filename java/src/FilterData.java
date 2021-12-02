@@ -35,7 +35,10 @@ public class FilterData {
                     .forEach(System.out::println);
 
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("--------------------");
+            System.out.println(e);
+            System.out.println("--------------------");
+            System.out.println("Try avicii or catData");
         }
     }
 
