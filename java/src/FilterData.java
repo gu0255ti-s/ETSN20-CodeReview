@@ -20,7 +20,7 @@ public class FilterData {
         Scanner sc = new Scanner(System.in); // System.in is a standard input stream
         System.out.println("--------------------------");
         System.out.println("Enter a filename (without .txt): ");
-        System.out.println("avicii or catData");
+        System.out.println("possible file names to choose from: avicii or catData");
         System.out.println("--------------------------");
         String name = sc.nextLine(); // reads string.
 
