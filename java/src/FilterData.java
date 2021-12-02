@@ -17,16 +17,20 @@ public class FilterData {
     private void run() {
 
         //Input filename
-        Scanner sc = new Scanner(System.in); // System.in is a standard input stream.
+        Scanner sc = new Scanner(System.in); // System.in is a standard input stream
+        System.out.println("--------------------------");
         System.out.println("Enter a filename (without .txt): ");
         System.out.println("avicii or catData");
+        System.out.println("--------------------------");
         String name = sc.nextLine(); // reads string.
 
         //Input filter pattern
+        System.out.println("--------------------------");
         System.out.println("Enter a pattern to filter on: ");
         System.out.println("for avicii try a year between 2012 and 2019, for catData try cat");
+        System.out.println("--------------------------");
         String pattern = sc.nextLine(); // reads string.
-
+        System.out.println("--------------------------");
         String fileName = getPath(name+".txt");
 
         // read file into stream and filter based on filter pattern
