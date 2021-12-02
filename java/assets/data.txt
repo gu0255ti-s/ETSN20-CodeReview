@@ -1,0 +1,12 @@
+a
+b
+c
+d
+f
+g
+cat
+dog cat
+not cat
+dog
+yellow cat
+catamaran
